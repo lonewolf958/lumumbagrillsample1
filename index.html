@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic Page Settings -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#4a0a0e">
+
+  <!-- Website Title and Description -->
+  <title>Lumumba Grill | Good Food</title>
+  <meta
+    name="description"
+    content="Lumumba Grill, Good Food. See our featured dishes and open the table menu."
+  >
+
+  <link rel="icon" href="logo.jpeg" type="image/jpeg">
+
+  <!-- Google Fonts
+       Display: Bebas Neue (matches the condensed lettering in the logo)
+       Body: Oswald -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Main Stylesheet (self-contained, same look as the table menu) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- 1. HEADER: logo, name, tagline, location, hours, phone -->
+  <header class="site-header">
+    <div class="header-inner">
+
+      <div class="brand-logo">
+        <img src="logo.jpeg" alt="Lumumba Grill logo" width="1024" height="931">
+      </div>
+
+      <div class="brand-copy">
+        <h1 class="brand-name">Lumumba Grill</h1>
+        <p class="brand-tagline">Good Food</p>
+      </div>
+
+      <div class="header-strip">
+        <p class="header-location">
+          <span class="header-icon" aria-hidden="true">📍</span>
+          Lumumba Street and Aggrey Street, Dar es Salaam
+        </p>
+
+        <p class="header-hours">Open 5 PM – 12 midnight. Closed on Thursday.</p>
+
+        <div class="header-phones">
+          <a class="phone-chip" href="tel:+255755666665">
+            <span aria-hidden="true">📞</span> +255 755 666 665
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+
+  <!-- 2. PAGE NAVIGATION -->
+  <nav class="page-nav" aria-label="Page sections">
+    <div class="page-nav-scroll">
+      <a class="nav-pill" href="index1.html">Table Menu</a>
+      <a class="nav-pill" href="#featured">Featured Food</a>
+      <a class="nav-pill" href="#about">About Us</a>
+    </div>
+  </nav>
+
+
+  <main>
+
+    <!-- 3. TABLE MENU -->
+    <section class="menu-cta" id="menu" aria-labelledby="menu-heading">
+      <div class="menu-cta-inner">
+        <h2 id="menu-heading" class="menu-cta-title">Table Menu</h2>
+        <p class="menu-cta-text">
+          Barbecue, chicken, beef, seafood, pizza and more, with all prices.
+        </p>
+        <a href="index1.html" class="menu-cta-button">View Table Menu</a>
+      </div>
+    </section>
+
+
+    <!-- 4. FEATURED FOOD
+         Put six photos in the images folder named featured-1.jpeg to
+         featured-6.jpeg (or change the src below). -->
+    <section class="featured" id="featured" aria-labelledby="featured-heading">
+
+      <h2 id="featured-heading" class="section-heading">Featured Food</h2>
+
+      <div class="featured-grid">
+
+        <figure class="dish-photo">
+          <div class="dish-frame">
+            <img src="images/featured-1.jpeg" alt="Lumumba Mandi" loading="lazy">
+          </div>
+          <figcaption class="dish-name">Lumumba Mandi</figcaption>
+        </figure>
+
+        <figure class="dish-photo">
+          <div class="dish-frame">
+            <img src="images/featured-2.jpeg" alt="Lumumba Special Whole Chicken" loading="lazy">
+          </div>
+          <figcaption class="dish-name">Lumumba Special Whole Chicken</figcaption>
+        </figure>
+
+        <figure class="dish-photo">
+          <div class="dish-frame">
+            <img src="images/featured-3.jpeg" alt="Lumumba Seafood Plate" loading="lazy">
+          </div>
+          <figcaption class="dish-name">Lumumba Seafood Plate</figcaption>
+        </figure>
+
+        <figure class="dish-photo">
+          <div class="dish-frame">
+            <img src="images/featured-4.jpeg" alt="T-Bone Steak" loading="lazy">
+          </div>
+          <figcaption class="dish-name">T-Bone Steak</figcaption>
+        </figure>
+
+        <figure class="dish-photo">
+          <div class="dish-frame">
+            <img src="images/featured-5.jpeg" alt="Chicken Wings Pilipili" loading="lazy">
+          </div>
+          <figcaption class="dish-name">Chicken Wings Pilipili</figcaption>
+        </figure>
+
+        <figure class="dish-photo">
+          <div class="dish-frame">
+            <img src="images/featured-6.jpeg" alt="Lumumba Burger" loading="lazy">
+          </div>
+          <figcaption class="dish-name">Lumumba Burger</figcaption>
+        </figure>
+
+      </div>
+
+      <p class="featured-more">
+        See every dish on the <a href="index1.html">table menu</a>.
+      </p>
+
+    </section>
+
+
+    <!-- 5. ABOUT US -->
+    <section class="about" id="about" aria-labelledby="about-heading">
+
+      <h2 id="about-heading" class="section-heading">About Us</h2>
+
+      <div class="about-text">
+
+        <p class="about-lead">Good Food.</p>
+
+        <p>
+          Lumumba Grill serves barbecue, chicken, beef, seafood, pizza, pasta
+          and more, at the corner of Lumumba Street and Aggrey Street in Dar es Salaam.
+        </p>
+
+        <p>
+          Come hungry and try the Lumumba Mandi, the Lumumba Seafood Plate,
+          or the Lumumba Special Whole Chicken served with rice.
+        </p>
+
+        <p>Please allow 30 minutes for your food to be prepared.</p>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- 6. FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+
+      <p class="footer-name">Lumumba Grill</p>
+      <p class="footer-tagline">Good Food</p>
+
+      <div class="footer-details">
+        <p><span aria-hidden="true">📍</span> Lumumba Street and Aggrey Street, Dar es Salaam, Tanzania</p>
+        <p><span aria-hidden="true">🕔</span> Open 5 PM – 12 midnight. Closed on Thursday.</p>
+        <p>
+          <span aria-hidden="true">📞</span>
+          <a href="tel:+255755666665">+255 755 666 665</a>
+        </p>
+      </div>
+
+    </div>
+
+    <p class="footer-copyright">
+      © <span id="year"></span> Lumumba Grill. All rights reserved.
+    </p>
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
